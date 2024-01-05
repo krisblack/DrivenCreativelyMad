@@ -1,0 +1,62 @@
+.Header-branding,
+.Mobile-bar-branding {
+  transition: ease-out 0.1s;
+  
+  &:hover {
+	transition: ease-in 0.1s;
+	-webkit-animation: jiggle 0.2s infinite;
+	-moz-animation-duration: 0.2s;
+	-moz-animation-name: jiggle;
+	-moz-animation-iteration-count: infinite;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+  }
+}
+
+@-moz-keyframes jiggle {
+  0% { -moz-transform: rotate(-1deg);}
+  50% {-moz-transform: rotate(1deg);}
+}
+
+@-webkit-keyframes jiggle {
+  0% {-webkit-transform: rotate(-1deg);}
+  50% {-webkit-transform: rotate(1deg);}
+}
+
+.Header--top {
+  border-top: 10px solid hsl(32, 98%, 55%);
+}
+
+.tweak-header-search-style-underlined .Header-search-form-input {
+  padding-bottom: 0;
+}
+
+.Header--bottom {
+  border-bottom: 1px solid #eee;
+}
+
+a.Header-nav-item {
+  position: relative;
+  
+  &:hover {
+	  color: @link-yellow-hover !important;
+ 
+	webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+	-moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+	-ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+	-o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+	transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+
+	&:after {
+	  border-bottom: 3px solid @link-yellow-hover;
+	  bottom: 6px;
+	  content: "";
+	  display: inline-block;
+	  height: 6px;
+	  left: 0;
+	  position: absolute;
+	  width: 100%;
+	  
+	}
+  }
+}

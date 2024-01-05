@@ -1,0 +1,77 @@
+.sqs-widgets-audio-player {
+  background-color: transparent !important;
+  border-radius: 12px;
+
+  .player {
+	background-color: #f9eac3 !important;
+	border-radius: 12px;
+	
+	.action {
+	  background-color: @link-yellow;
+	  border-radius: 12px 0 0 12px;
+
+	  &:hover {
+		background-color: @link-yellow-hover !important;
+	  }
+	}
+
+	.play-button {
+	  border-left-color: #181818 !important;
+	}
+	
+	.labels {
+	  border-radius: 0 12px 12px 0;
+	  color: #000000;
+
+	  .title-wrapper {
+		font-weight: 700;
+	  }
+	  .artistName {
+		color: #000000;
+	  }
+	}
+	
+	.secondary-controls {
+	  .download a {
+		color: #000000 !important;
+		
+		&:after {
+		  content: "\2193";
+		  margin-left: 0.25em;
+		}
+	  }
+	}
+  }
+}
+
+.rss-block {
+  padding-top: 0;
+  
+  a {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(86,171,205,0.3);
+	color: #56abcd;
+  }
+}
+
+// Newsletter Block
+.form-fields {
+  .field-element {
+	border: 2px solid black;
+	box-shadow: inset 2px 2px 8px rgba(0,0,0,0.25) !important;
+	padding: 0.5rem 1rem !important;
+  }
+}
+
+.summary-item-list .summary-thumbnail-container .summary-thumbnail,
+.BlogList-item-image {
+  box-shadow: 0 0 6px rgba(0,0,0,0.25);
+}
+
+.summary-title {
+  font-family: proxima-nova-extra-condensed, helvetica, arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1em !important;
+}
