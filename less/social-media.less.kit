@@ -1,0 +1,64 @@
+// Social Media in Header
+
+.header-icon[href*="patreon"] {
+
+  &::before {
+	.fontawesomeBrands;
+	content: "\f3d9";
+	font-size: 1rem;
+	position: relative;
+	top: -2px !important;
+  }
+	
+  svg {
+	display: none;
+	visibility: hidden;
+  }
+}
+
+.header-icon[href*="mastodon"] {
+  color: @palette-black;
+
+  &::before {
+	.fontawesomeBrands;
+	content: "\f4f6";
+	font-size: 1.2rem;
+  }
+  
+  svg {
+	display: none;
+	visibility: hidden;
+  }
+}
+
+// Social Media in Footer 
+
+.sqs-block-socialaccountlinks-v2 .sqs-svg-icon--wrapper[href*="patreon"] {
+	height: 26px !important;
+	
+	&::before {
+		.fontawesomeBrands;
+		content: "\f3d9";
+		font-size: 1.2rem;
+	}
+	
+	svg {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+.sqs-block-socialaccountlinks-v2 .sqs-svg-icon--wrapper[href*="mastodon"] {
+	height: 28px !important;
+	
+  	&::before {
+		.fontawesomeBrands;
+		content: "\f4f6";
+		margin-top: 0.13em;
+  	}
+  	
+  	svg {
+		display: none;
+		visibility: hidden;
+  	}
+}

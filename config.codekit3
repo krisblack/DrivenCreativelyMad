@@ -79,6 +79,14 @@
       "oAP" : "\/build\/less\/site-header.less.less",
       "oF" : 0
     },
+    "\/less\/social-media.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/social-media.less.less",
+      "oF" : 0
+    },
     "\/less\/variables.less.kit" : {
       "cB" : 0,
       "ft" : 2048,
