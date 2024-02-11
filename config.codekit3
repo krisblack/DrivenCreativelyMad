@@ -71,6 +71,14 @@
       "oAP" : "\/build\/less\/mixins.less.less",
       "oF" : 0
     },
+    "\/less\/sections.less.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/less\/sections.less.less",
+      "oF" : 0
+    },
     "\/less\/site-header.less.kit" : {
       "cB" : 0,
       "ft" : 2048,

@@ -4,7 +4,7 @@
 @Header--bottom-bg: hsl(200, 4%, 14%);
 @body-bg: #ffffff;
 
-@palette-black: #120F09;
+@palette-black: #12181C;
 @palette-grey: #525252;
 @palette-gray: @palette-grey;
 
@@ -172,6 +172,13 @@ a.Header-nav-item {
 }
 
 // Newsletter Block
+.newsletter-form-header,
+.newsletter-form-footnote {
+	p[data-rte-preserve-empty="true"] {
+		display: none;
+		visibility: hidden;
+	}
+}
 .form-fields {
   .field-element {
 	border: 1px solid @light-grey;
@@ -487,6 +494,14 @@ h3 + p {
   	}
 }
 
+
+.user-items-list-item-container {
+	li.list-item {
+		border-radius: 3px;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+	}
+}
 
 .Footer {
   
